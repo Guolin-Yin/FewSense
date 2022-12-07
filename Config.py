@@ -24,12 +24,3 @@ class getConfig:
         self.learning_Domain = [(2,1,3), (2,2,3), (2,3,3), (2,4,3), (2,5,3)]
         self.history = None
         self.n_ft_cls = None
-    #     self.initGPU()
-    # def initGPU(self):
-    #     gpus = tf.config.experimental.list_physical_devices( 'GPU' )
-    #     if gpus:
-    #         try:
-    #             for gpu in gpus:
-    #                 tf.config.experimental.set_memory_growth( gpu, True )
-    #         except RuntimeError as e:
-    #             print( e )
